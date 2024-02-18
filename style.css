@@ -1,0 +1,19 @@
+        body {
+            font-family: "Comic Sans MS";
+            text-align: center;
+            background-color: black;
+        }
+        #counter {
+            font-size: 24px;
+            color: green;
+            margin-top: 20px;
+        }
+        #snow {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+        }
